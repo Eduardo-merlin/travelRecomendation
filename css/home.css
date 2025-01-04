@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/1735959704110.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Esta parte es para la navegacion*/
+
+.main_content {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.nav_menu {
+  width: 100%;
+  border: solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(13, 1, 7, 0.8);
+}
+
+.content_logo {
+  background-image: url(../img/04f1af17e5a0b919d64b9e6eeb3f86ae.jpg);
+}
