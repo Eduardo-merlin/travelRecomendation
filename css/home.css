@@ -8,28 +8,64 @@ body {
   background-image: url(../img/1735959704110.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 html {
   font-size: 62.5%;
 }
 
-/* Esta parte es para la navegacion*/
-
 .main_content {
   width: 100vw;
   min-height: 100vh;
 }
-
 .nav_menu {
   width: 100%;
-  border: solid red;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgba(13, 1, 7, 0.8);
 }
+.content_search {
+  width: 28%;
+  display: flex;
+  flex-direction: row;
+}
 
-.content_logo {
-  background-image: url(../img/04f1af17e5a0b919d64b9e6eeb3f86ae.jpg);
+.input_text {
+  width: 100%;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  position: relative;
+  font-size: 1.5rem;
+}
+
+.content_logoS {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url(../img/png-transparent-magnifying-glass-computer-icons-magnifier-search-for-glass-magnifier-tool-thumbnail.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content_buttons {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  left: 89%;
+  top: 18px;
+  column-gap: 1rem;
+}
+
+.buttons {
+  width: 10rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 190, 164, 1);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
