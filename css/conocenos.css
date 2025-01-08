@@ -1,0 +1,108 @@
+.main_content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding-right: 20rem;
+}
+
+.content_text {
+  width: 100%;
+  display: flex;
+  padding-left: 10rem;
+  flex-direction: column;
+}
+
+.content_title {
+  width: 30%;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about_text {
+  width: 90%;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+  background-color: rgba(13, 1, 7, 0.4);
+  border-radius: 1rem;
+}
+
+.content_t {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  padding: 2rem;
+  padding-left: 6rem;
+}
+
+.title_team {
+  width: 16rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.content_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.team {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  padding-top: 1rem;
+  column-gap: 0.5rem;
+  background-color: rgba(13, 1, 7, 0.3);
+  border-radius: 0.5rem;
+}
+
+.img_team {
+  width: 3rem;
+  height: 3rem;
+  background-image: url(../img/user_log.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+  padding: 1rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.text_team {
+  font-size: 1.5rem;
+}
+
+.button_team {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.b_team {
+  width: 60%;
+  height: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  background-color: rgba(28, 60, 201);
+  color: white;
+}
