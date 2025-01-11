@@ -1,0 +1,78 @@
+.content_wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content_contact {
+  width: 100%;
+  min-height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 6rem;
+  padding-right: 2rem;
+}
+
+.contact {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.title_contact {
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.text_contact {
+  font-size: 1.5rem;
+  opacity: 1;
+}
+
+.contact_us {
+  width: 50%;
+  min-height: 20%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  background-color: rgba(13, 1, 7, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.title_text {
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
+.input_contacto {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: solid white 1px;
+  color: white;
+}
+.text_mesagge {
+  width: 100%;
+  min-height: 45%;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  background-color: transparent;
+  border: solid white 1px;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.button_enviar {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgba(51, 255, 187, 0.49);
+  cursor: pointer;
+}

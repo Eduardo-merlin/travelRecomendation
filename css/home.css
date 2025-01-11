@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Serif+Text:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +8,15 @@
 }
 
 body {
+  max-width: 100dvw;
+  min-height: 100dvh;
   background-image: url(../img/1735959704110.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.2);
   background-blend-mode: lighten;
   color: white;
+  overflow-x: hidden;
 }
 
 html {
@@ -21,6 +25,7 @@ html {
 
 .nav_menu {
   width: 100%;
+  padding-right: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,7 +77,9 @@ html {
 
 .main_content {
   width: 100%;
-  height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+  border: solid red 2px;
 }
 
 .content_explorer {
@@ -82,22 +89,25 @@ html {
   flex-direction: row;
   align-items: center;
   column-gap: 4rem;
+  border: solid yellow 2px;
+  padding-top: 10rem;
 }
 
 .content_text {
-  width: 60%;
+  width: 55%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 4rem;
   padding-left: 2rem;
+  border: solid blueviolet 2px;
 }
 
 .text_explore {
   width: 50%;
   color: white;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 .text_content {
@@ -115,4 +125,61 @@ html {
   text-transform: uppercase;
   cursor: pointer;
   border: none;
+}
+
+.content_cosos {
+  width: 30%;
+  height: 90vh;
+  border: blue dashed 2px;
+  position: absolute;
+  top: 6rem;
+  right: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  padding-top: 2rem;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #a8a8a8 #e0e0e0;
+}
+
+.content_fetch {
+  width: 100%;
+  height: 4rem;
+  border: solid orange 2px;
+}
+
+.recomendation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: solid red 2px;
+}
+
+.img_recomendation {
+  width: 100%;
+  height: 25rem;
+  background-image: url(../img/imgRecomendation/Playas-Brasil-9.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.text_recomendation {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.p_recomendation {
+  font-size: 1.4rem;
 }

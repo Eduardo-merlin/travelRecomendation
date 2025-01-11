@@ -5,25 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bar_nav.css">
     <link rel="stylesheet" href="./css/home.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+    <title>Contact Us</title>
 </head>
 <body>
+    <nav class="nav_menu_about">
+        <div class="content_empresa">
+            <div class="content_logo"></div>
+            <h1 class="name_empresa">ExploreWorld.</h1>
+        </div>
+        <div class="content_nav">
+            <a class="links" href="./travel_recommendation.html">Home</a>
+            <a class="links" href="./travel_conocenos.html">About Us</a>
+            <a class="links" href="./travel_contactanos.html">Contact Us</a>
+        </div>
     
-    <main class="main_content">
+     </nav> 
+    <main class="content_wrapper">
         
-        <nav class="nav_menu_about">
-           <div class="content_empresa">
-               <div class="content_logo"></div>
-               <h1 class="name_empresa">ExploreWorld.</h1>
-           </div>
-           <div class="content_nav">
-               <a class="links" href="./travel_recommendation.html">Home</a>
-               <a class="links" href="./travel_conocenos.html">About Us</a>
-               <a class="links" href="./travel_contactanos.html">Contact Us</a>
-           </div>
-       
-        </nav> 
-
         <div class="redes_sociales">
             <div class="linea"></div>
             <div class="link_redes">
@@ -31,10 +30,24 @@
             <a target="_blank" href="https://www.facebook.com/" class="facebook"></a>
             <a target="_blank" href="https://www.instagram.com/" class="instagram"></a>
             <a target="_blank" href="https://www.youtube.com/" class="youtube"></a>
-            </div>
-           
+            </div>   
         </div>
-    </main>
-    
+
+        <div class="content_contact">
+            <div class="contact">
+                <h1 class="title_contact">Contact Us</h1>
+                <p class="text_contact">Get in touch</p>
+            </div>
+            <section class="contact_us">
+                <label class="title_text" for="">Name</label>
+                <input type="text" class="input_contacto" placeholder="Enter your name..">
+                <label class="title_text" for="">E-mail</label>
+                <input type="email" class="input_contacto" placeholder="Enter your email..">
+                <label class="title_text" for="">Message</label>
+                <textarea class="text_mesagge" id="" placeholder="Enter yout mesagge"></textarea>
+                <button class="button_enviar">Submit</button>
+            </section>
+        </div>
+    </main> 
 </body>
 </html>
