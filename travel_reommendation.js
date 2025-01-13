@@ -78,7 +78,7 @@ fetch("./travel_recommendation_api.json")
       });
 
       buttonClear.addEventListener("click", function () {
-        return (location = []);
+        bodyRecomendation.innerHTML = "";
       });
       console.log(locationsFiltered);
 

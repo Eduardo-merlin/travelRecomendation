@@ -126,7 +126,7 @@ html {
 
 .content_recomendation {
   width: 30%;
-  height: 90vh;
+  max-height: 90vh;
   position: absolute;
   top: 6rem;
   right: 3rem;
@@ -134,9 +134,10 @@ html {
   flex-direction: column;
   row-gap: 2rem;
   padding-top: 2rem;
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #a8a8a8 #e0e0e0;
+  padding-right: 0.5rem;
 }
 
 .content_date {
@@ -156,7 +157,6 @@ html {
 .img_recomendation {
   width: 100%;
   height: 25rem;
-  background-image: url(../img/imgRecomendation/Playas-Brasil-9.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
