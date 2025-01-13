@@ -60,8 +60,8 @@ html {
   flex-direction: row;
   justify-content: center;
   position: absolute;
-  left: 89%;
-  top: 18px;
+  right: 2%;
+  top: 2.2%;
   column-gap: 1rem;
 }
 
@@ -79,7 +79,6 @@ html {
   width: 100%;
   min-height: 100dvh;
   position: relative;
-  border: solid red 2px;
 }
 
 .content_explorer {
@@ -89,7 +88,6 @@ html {
   flex-direction: row;
   align-items: center;
   column-gap: 4rem;
-  border: solid yellow 2px;
   padding-top: 10rem;
 }
 
@@ -101,7 +99,6 @@ html {
   justify-content: center;
   row-gap: 4rem;
   padding-left: 2rem;
-  border: solid blueviolet 2px;
 }
 
 .text_explore {
@@ -127,10 +124,9 @@ html {
   border: none;
 }
 
-.content_cosos {
+.content_recomendation {
   width: 30%;
   height: 90vh;
-  border: blue dashed 2px;
   position: absolute;
   top: 6rem;
   right: 3rem;
@@ -143,10 +139,11 @@ html {
   scrollbar-color: #a8a8a8 #e0e0e0;
 }
 
-.content_fetch {
+.content_date {
   width: 100%;
-  height: 4rem;
-  border: solid orange 2px;
+  min-height: 3rem;
+  background-color: rgb(0, 157, 105);
+  border-radius: 0.5rem;
 }
 
 .recomendation {
@@ -154,7 +151,6 @@ html {
   display: flex;
   flex-direction: column;
   border-radius: 1rem;
-  border: solid red 2px;
 }
 
 .img_recomendation {
@@ -177,9 +173,31 @@ html {
   row-gap: 0.5rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
+}
+
+.title_recomendation {
+  padding-left: 0.5rem;
 }
 
 .p_recomendation {
   font-size: 1.4rem;
+  opacity: 0.5;
+  padding: 0.5rem;
+}
+
+.buton_recomendatio {
+  width: 12%;
+  background-color: rgba(4, 196, 132, 0.503);
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.linean {
+  height: 20rem;
+  border: solid white 1px;
+  color: white;
 }
